@@ -133,20 +133,26 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="blog-section">
+       <section className="blog-section">
         <h2>Our Blog</h2>
-        <div className="blogs">
-          <div className="blog">
+        <div className="blog-container">
+          <div className="blog-card">
             <img src="https://s3-alpha-sig.figma.com/img/51e9/6456/382df2a4d4c1215dde86c1d074cf8306?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J1GEnCll0CeUg1yTKq5GnVHpfih0yRfoQPO3xLXPGDtCcy3eoZ15wIh3ZDLsHoJTgWkZDBVqQbCa7PJsX-HcwONcxppkPrEnjIfFZB4VUPr2K4Nis-p5M47UY-l5jlTBTj70wZVzEJhkeg8sZFZKc5rQ6lEbGBwKkD6-4x1ZQ-QQTVu7uvCSo~~iQHoTSWOyjs2uNKYtEEXDgC39QBRbZHU8rLYfxvLdd6DH2MPNXmZ8Eu1ciZfbku5O3Usme-KEmqIHLymhWdeADaRZTWplO9YxMABQFB8aQKaABcgSfY~oET8uRp5OOauRT3Kyvlg9uOiHzNldMgEhjRcrmwViGg__" alt="Blog 1" />
-            <p>Innovations for a Greener Future</p>
+            <h3>Innovations for a Greener Future</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet...</p>
+            <a href="#">Read More</a>
           </div>
-          <div className="blog">
+          <div className="blog-card">
             <img src="https://s3-alpha-sig.figma.com/img/2b4f/a100/8da35b5d8c4c53c319d1708152609689?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TELvBOFMG66IIcT1ZrivRHeEG40SMwoXY68b2lOymdOW6kJnP5GIFVIsffFCZZznximjHOfpH1TCq1BcclOveYhems29~5e8J3iKcMs-UpeVHiGQWZMdR5kHVbq4NFs~E9hYoao-V8X9Sl1HvYQTee9plRn-4FiQF20Rovu08fvtzDJ33Bya8Ah~~GcBuhgvZyo~j-oTX7YYVfDOyJA1HM9C0WHTVkaqKYEnf4gBT6hbwRIPyqBcRK9XEDwgOB1ma1ANmeVrUnWvUK0yBUinWmnWh2xF6lHnnzYDktMz609GoPRhd2k56Tgc2xCTDKlCwz852W4Ms8ewHmoJU36uEg__" alt="Blog 2" />
-            <p>The Power of Agricultural Analytics</p>
+            <h3>The Power of Agricultural Analytics</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet...</p>
+            <a href="#">Read More</a>
           </div>
-          <div className="blog">
+          <div className="blog-card">
             <img src="https://s3-alpha-sig.figma.com/img/c5bd/40ec/9cd491fd274939036f7cc0be57052e28?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JLlAFUFbKEeMa7H8wenj4ZuSpxV6xZ9MpXMBEkznc0EsO6DjJ6c~VO-joo86XQX-EAuOe2-sXbPWgvRUHBZ9LE11oUAjmo53yOzDaEkb1XcTJ96y5RYZ9pjFcBYCzJacxBZPkbSKvUv9slTTb9AwAPKV8YZDT8jdFJAlK6mywbnYMJYGuP3W~5cAXn6D6KpHQsfKk3qB0hwyQBmKcknDRms-r~uennVLhPhV64Z7x~15rjT~aB36-GRPcyrd9bm4nLZL1capW81DZNt4rqFtsM5jjebJVbgkjQ-SwCM0x7zrrjbE2giSmWr-Jg4cxmbyko8ORXTf~ATA2e4S8hWW4g__" alt="Blog 3" />
-            <p>Cultivating Sustainable and Resilient Farms</p>
+            <h3>Cultivating Sustainable and Resilient Farms</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet...</p>
+            <a href="#">Read More</a>
           </div>
         </div>
       </section>
