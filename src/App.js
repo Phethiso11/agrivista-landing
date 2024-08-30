@@ -37,7 +37,7 @@ function App() {
         <p>Nurturing Growth and Sustaining the Future</p>
         <div className="passion-content hero-buttons">
           <img src="https://s3-alpha-sig.figma.com/img/e762/1efc/add90d96b68fd53a1a45e58910474cf5?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e897ZF7ppZpCW~FpTy1ga3dLMydKgFHK1DPpmtHJmhv50fvPcKqmMXdXD8gEI67STxDi9q9MtUWYVZSHKBviajEkdJ7RbLcirhhLISzc5mSXE3oANANWtuoBuf0RhFtOlXgrDWs3nbQub5cgS1R2feuLItB-OtC2WHhqb4ilRY-GtqbIdV-ROcsHfjPnzcjtUR~1J8SOyoTzI71gi1M2oK3VVMuFHmqjAyihtKxSyo5q261ZTrH0IUVY6cdUuq9GL-HtlJNBZD~BWYqSC-HS691QUWwwCiIAw1uWuAL98qqXMZpWtvICTVmJnPFuqEDiboeb1BCTvC-XtGIw9XIKuA__" alt="Agriculture" className="passion-image" />
-          <p>Since 1976</p>
+          <div className='shadow-box'><p>Since 1976</p></div>
           <button className="btn">Get Started</button>
         </div>
       </section>

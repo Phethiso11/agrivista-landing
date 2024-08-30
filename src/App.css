@@ -426,6 +426,20 @@ html {
   }
 }
 
+.shadow-box {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  background-color: #fff; /* Optional: Background color */
+  padding: 20px;
+  width: 150px; /* Optional: Padding inside the div */
+}
+
+/* Add a hover effect to enhance interactivity */
+.shadow-box:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 /* Footer */
 footer {
   background-color: #333;
