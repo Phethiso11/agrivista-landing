@@ -13,6 +13,10 @@ import pro from './Product.png'
 import sat from './Satisfied.png'
 import loc from './Team.png'
 import learn from './Learn More.png'
+import get from './Group 1.png'
+import learn1 from './Group 2.png'
+import log from './Group 146.png'
+import sign from './Group 147.png'
 function App() {
   return (
     <div className="App">
@@ -25,8 +29,8 @@ function App() {
             <a href="#pages">Pages</a>
           </div>
           <div className="auth-buttons">
-            <button className="btn">Login</button>
-            <button className="btn signup">Sign Up</button>
+          <img src={log} alt=''></img>
+          <img src={sign} alt=''></img>
           </div>
         </nav>
       </header>
@@ -36,8 +40,8 @@ function App() {
           <h2>The Role of Technology in Revolutionizing Agriculture</h2>
           <p>Li Europan lingues es membres del sam familie. Lor separate existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular.</p>
           <div className="hero-buttons">
-            <button className="btn">Get Started</button>
-            <button className="btn learn-more">Learn More</button>
+          <img src={get} alt=''></img>
+          <img src={learn1} alt=''></img>
           </div>
         </div>
       </section>
